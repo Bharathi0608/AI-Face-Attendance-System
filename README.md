@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎓 FaceAttend — AI Face Recognition Attendance System
 
 A complete AI-powered attendance system using **Python**, **Flask**, **Firebase**, and **face_recognition**.  
