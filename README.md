@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 FaceAttend — AI Face Recognition Attendance System
 
 A complete AI-powered attendance system using **Python**, **Flask**, **Firebase**, and **face_recognition**.  
@@ -254,3 +255,6 @@ Make sure `FIREBASE_CONFIG` in `firebase_config.py` matches your web app config 
 
 **`serviceAccountKey.json` not found**  
 Download from Firebase Console → Project Settings → Service Accounts → Generate new private key.
+=======
+# AI-Face-Attendance-System
+>>>>>>> 6c6a00bde5934a41dd175dc61bbc1e715fbe4db9
