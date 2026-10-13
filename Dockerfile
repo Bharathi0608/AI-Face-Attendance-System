@@ -5,8 +5,6 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    cmake \
     libwebp7 \
     libgl1 \
     libglib2.0-0 \
@@ -19,6 +17,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 COPY requirements.txt .
+
+RUN pip install --no-cache-dir \
+    https://github.com/alvinregin/dlib-wheels/releases/download/v20.0.0/dlib-20.0.0-cp311-cp311-linux_x86_64.whl
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
