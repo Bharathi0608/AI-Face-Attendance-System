@@ -4,3 +4,5 @@ flask-cors
 firebase-admin
 opencv-python-headless
 face-recognition
+numpy
+gunicorn
